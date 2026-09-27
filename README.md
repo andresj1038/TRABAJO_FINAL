@@ -88,6 +88,27 @@ El proyecto se desarrollará por etapas, de forma que primero se tenga claro qu�
 
 El equipo tendrá una inversión total estimada de **50 horas de trabajo**, distribuidas entre las diferentes actividades del proyecto.
 
+### 7.1 Actividades del proyecto
+
+Para desarrollar **Pet-Voz**, las actividades se distribuirán teniendo en cuenta los roles definidos previamente por el equipo. Aunque cada actividad tendrá uno o varios responsables principales, todos los integrantes podrán apoyar las diferentes etapas cuando sea necesario.
+
+| Actividad | Descripción | Responsable(s) principal(es) | Horas estimadas |
+|---|---|---|---:|
+| Planeación y organización | Revisión de las indicaciones, organización de reuniones, definición del alcance y seguimiento general del proyecto. | **Andres Julian Giraldo Garcia — Líder de Proyecto** | 4 h |
+| Diseño del programa | Definición de la estructura general del programa, organización de los módulos y planteamiento de la interfaz de consola. | **Anderson Leonardo Betancur Morales — Programador** y **Sofia Martinez Salgado — Diseñadora de Interfaz** | 5 h |
+| Registro de PQRS | Desarrollo de las funciones necesarias para registrar peticiones, quejas, reclamos y sugerencias con sus respectivos datos. | **Anderson Leonardo Betancur Morales — Programador** y **Juan Jose Rios Ramirez — Programador** | 7 h |
+| Validación de datos | Desarrollo y revisión de las validaciones para nombres, documentos, teléfonos, correos, fechas y demás información ingresada al sistema. | **Juan Jose Rios Ramirez — Programador** y **Anderson Leonardo Betancur Morales — Programador** | 5 h |
+| Almacenamiento de información | Desarrollo de la lectura y escritura de los cuatro archivos planos correspondientes a Peticiones, Quejas, Reclamos y Sugerencias. | **Anderson Leonardo Betancur Morales — Programador** y **Juan Jose Rios Ramirez — Programador** | 5 h |
+| Consulta y actualización | Desarrollo de las funciones para consultar las PQRS registradas y actualizar su estado entre Registrada, En proceso y Solucionada. | **Anderson Leonardo Betancur Morales — Programador** y **Juan Jose Rios Ramirez — Programador** | 5 h |
+| Generación de radicados | Desarrollo del comprobante de radicación en formato TXT y revisión de su organización y presentación visual. | **Juan Jose Rios Ramirez — Programador** y **Sofia Martinez Salgado — Diseñadora de Interfaz** | 4 h |
+| Estadísticas | Desarrollo del promedio de días de respuesta y de las cinco estadísticas adicionales seleccionadas por el equipo. | **Anderson Leonardo Betancur Morales — Programador** y **Juan Jose Rios Ramirez — Programador** | 4 h |
+| Pruebas y correcciones | Realización de pruebas, identificación de posibles fallos y corrección de errores antes de la entrega final. | **Juan Jose Rios Ramirez — Programador**, con apoyo de **Anderson Leonardo Betancur Morales — Programador** | 5 h |
+| Documentación y entrega | Organización del README, consolidación de la documentación, revisión de redacción, presentación visual y preparación de la entrega final. | **Sofia Martinez Salgado — Diseñadora de Interfaz**, **Dana Zapata Rodriguez — Comunicadora** y **Andres Julian Giraldo Garcia — Líder de Proyecto** | 6 h |
+| **Total** | | | **50 h** |
+
+La asignación anterior establece los responsables principales de cada actividad, pero no limita la participación de los demás integrantes. **Pet-Voz es un proyecto grupal**, por lo que todos los miembros deberán conocer el funcionamiento general del sistema, participar en las revisiones y apoyar al equipo cuando alguna actividad lo requiera.
+
+
 ### 7.2 Cronograma
 
 El proyecto se desarrollará de forma progresiva durante las semanas restantes del semestre. Algunas actividades podrán realizarse al mismo tiempo, especialmente la documentación, las pruebas y las correcciones.
