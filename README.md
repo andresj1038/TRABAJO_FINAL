@@ -81,5 +81,81 @@ Crear un programa de consola amigable que permita al administrador de Pet-Voz ge
 
 ---
 ## 7. Plan de proyecto: 
+## 7. Plan de proyecto
 
+Para el desarrollo de **Pet-Voz** se plantea un plan de trabajo que permita avanzar de manera organizada desde la planeación inicial hasta la entrega final del programa.
+
+El proyecto se desarrollará por etapas, de forma que primero se tenga claro qué debe hacer el sistema, luego se construyan sus principales funciones y finalmente se realicen las pruebas, correcciones y documentación necesarias.
+
+El equipo tendrá una inversión total estimada de **50 horas de trabajo**, distribuidas entre las diferentes actividades del proyecto.
+
+### 7.1 Actividades del proyecto
+
+Las actividades principales para el desarrollo de Pet-Voz serán las siguientes:
+
+| Actividad | Descripción | Horas estimadas |
+|---|---|---:|
+| Planeación y organización | Revisión de las indicaciones, reuniones del equipo, definición del alcance y organización del trabajo. | 4 h |
+| Diseño del programa | Definición del menú, estructura de los archivos, módulos y forma en que funcionará Pet-Voz. | 5 h |
+| Registro de PQRS | Desarrollo de la función para registrar peticiones, quejas, reclamos y sugerencias con sus respectivos datos. | 7 h |
+| Validación de datos | Creación de las validaciones para nombres, documentos, teléfonos, correos, fechas y demás información ingresada. | 5 h |
+| Almacenamiento de información | Desarrollo de la lectura y escritura de los cuatro archivos planos correspondientes a cada tipo de PQRS. | 5 h |
+| Consulta y actualización | Desarrollo de las opciones para consultar PQRS y cambiar su estado entre Registrada, En proceso y Solucionada. | 5 h |
+| Generación de radicados | Creación del comprobante en formato TXT con la información correspondiente a cada PQRS registrada. | 4 h |
+| Estadísticas | Desarrollo del promedio de días de respuesta y de las cinco estadísticas adicionales seleccionadas por el equipo. | 4 h |
+| Pruebas y correcciones | Pruebas generales del programa para encontrar errores y realizar las correcciones necesarias. | 5 h |
+| Documentación y entrega | Organización del repositorio, actualización del README, manual de usuario y revisión final del proyecto. | 6 h |
+| **Total** | | **50 h** |
+
+### 7.2 Cronograma
+
+El proyecto se desarrollará de forma progresiva durante las semanas restantes del semestre. Algunas actividades podrán realizarse al mismo tiempo, especialmente la documentación, las pruebas y las correcciones.
+
+#### Diagrama de Gantt
+
+| Actividad | S8 | S9 | S10 | S11 | S12 | S13 | S14 | S15 | S16 |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Planeación y organización | 🟩 | | | | | | | | |
+| Diseño del programa | 🟩 | 🟩 | | | | | | | |
+| Registro de PQRS | | 🟩 | 🟩 | | | | | | |
+| Validación de datos | | 🟩 | 🟩 | 🟩 | | | | | |
+| Almacenamiento de información | | | 🟩 | 🟩 | | | | | |
+| Consulta y actualización | | | | 🟩 | 🟩 | | | | |
+| Generación de radicados | | | | 🟩 | 🟩 | | | | |
+| Estadísticas | | | | | 🟩 | 🟩 | | | |
+| Pruebas y correcciones | | | | | | 🟩 | 🟩 | 🟩 | |
+| Documentación y entrega | 🟩 | | | | | 🟩 | 🟩 | 🟩 | 🟩 |
+
+**Convención:** 🟩 Periodo estimado de trabajo.
+
+El cronograma podrá ajustarse de acuerdo con el avance del equipo y las observaciones realizadas por el profesor durante el desarrollo del proyecto.
+
+### 7.3 Presupuesto
+
+Para este proyecto no se plantea un pago directo en dinero a los integrantes. El presupuesto se entiende como el **valor del tiempo de práctica y formación** que el equipo dedicará al desarrollo de Pet-Voz.
+
+De acuerdo con las indicaciones del proyecto, el equipo invertirá en total **50 horas de trabajo**, las cuales serán valoradas tomando como referencia una práctica profesional equivalente a **1 Salario Mínimo Legal Mensual Vigente (SMLV)**.
+
+Por esta razón, el principal recurso del proyecto será el tiempo y conocimiento aportado por los cinco integrantes.
+
+| Recurso | Cantidad | Forma de valoración |
+|---|---:|---|
+| Integrantes | 5 estudiantes | Trabajo académico y de formación |
+| Tiempo total del proyecto | 50 horas | Horas de práctica profesional |
+| Referencia económica | 1 SMLV | Valor de referencia de una práctica profesional |
+| Software utilizado | Python, Git y GitHub | Sin costo para el proyecto |
+| Equipos | Computadores personales | Recursos propios de los integrantes |
+| **Inversión principal** | **50 horas** | **Tiempo de formación práctica** |
+
+Las 50 horas corresponden al tiempo total estimado para desarrollar el proyecto y se distribuyen entre las actividades presentadas anteriormente.
+
+Aunque se utiliza **1 SMLV como referencia para valorar la práctica profesional**, este valor no representa un salario que vaya a ser pagado al equipo. Su finalidad es reconocer que el desarrollo de Pet-Voz requiere una inversión de tiempo y trabajo por parte de los estudiantes.
+
+### 7.4 Organización y seguimiento
+
+Para mantener organizado el proyecto, los integrantes realizarán reuniones de seguimiento en las que se revisará qué actividades se han completado, cuáles se encuentran pendientes y si es necesario realizar cambios en el cronograma.
+
+GitHub será utilizado como espacio principal para mantener organizado el proyecto y registrar los avances realizados por el equipo.
+
+Cada integrante participará en las actividades relacionadas con su rol, pero el desarrollo de Pet-Voz será un trabajo conjunto. Por esta razón, todos los integrantes deberán conocer de manera general el funcionamiento del programa y los cambios realizados durante el proyecto.
 
