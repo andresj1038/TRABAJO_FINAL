@@ -82,132 +82,57 @@ Crear un programa de consola amigable que permita al administrador de Pet-Voz ge
 ---
 ## 7. Plan de proyecto: 
 
-El desarrollo de **Pet-Voz** se realizará de manera progresiva, dividiendo el proyecto en etapas que permitan organizar el trabajo del equipo, verificar el cumplimiento de los requisitos y realizar pruebas antes de la entrega final.
 
-El proyecto se desarrollará como una aplicación de consola en **Python**, utilizando archivos planos para el almacenamiento de la información y separando las principales funcionalidades en módulos independientes.
+Para desarrollar **Pet-Voz**, dividiremos el trabajo en diferentes etapas. La idea es avanzar primero con la estructura básica del programa y después ir agregando las funcionalidades hasta tener una versión completa que podamos probar y corregir antes de la entrega.
 
-### 7.1 Actividades del proyecto
+### Actividades y cronograma
 
-| N.º | Actividad | Descripción | Responsable(s) | Entregable |
-|---|---|---|---|---|
-| 1 | Análisis de requisitos | Revisar los requerimientos del proyecto, identificar las funcionalidades principales y definir las restricciones del sistema. | Todo el equipo | Lista definitiva de requisitos |
-| 2 | Diseño general del sistema | Definir la estructura del programa, el menú principal, los módulos y la forma en que se almacenará la información. | Anderson y Juan José | Diseño general y estructura del programa |
-| 3 | Diseño de la interfaz de consola | Diseñar la presentación del menú, mensajes, opciones, confirmaciones y formato visual de los radicados. | Sofía | Propuesta de interfaz de consola |
-| 4 | Desarrollo de validaciones | Implementar las funciones necesarias para validar nombres, documentos, teléfonos, correos, fechas y demás datos ingresados. | Anderson y Juan José | `validaciones.py` |
-| 5 | Gestión de archivos | Implementar la creación, lectura, escritura y actualización de los archivos `Peticion.txt`, `Queja.txt`, `Reclamo.txt` y `Sugerencia.txt`. | Anderson y Juan José | `archivos.py` |
-| 6 | Registro de PQRS | Implementar el formulario de registro de nuevas Peticiones, Quejas, Reclamos y Sugerencias. | Anderson y Juan José | Módulo funcional de registro |
-| 7 | Generación de radicados | Implementar la generación automática de un ID consecutivo independiente para cada tipo de PQRS y crear el comprobante TXT con marco ASCII de 120 caracteres. | Anderson y Juan José | Sistema de radicación |
-| 8 | Consulta de PQRS | Implementar las funciones necesarias para consultar los registros almacenados y visualizar su información y estado. | Anderson y Juan José | Módulo de consultas |
-| 9 | Actualización de estados | Permitir modificar el estado de una PQRS siguiendo el flujo `Registrada → En proceso → Solucionada`. | Anderson y Juan José | Módulo de actualización |
-| 10 | Control de fechas | Calcular automáticamente la fecha máxima de respuesta de cada PQRS y detectar registros próximos a cumplir los 30 días calendario. | Anderson y Juan José | Sistema de control de fechas |
-| 11 | Desarrollo de estadísticas | Implementar el promedio de días de respuesta y las cinco estadísticas adicionales seleccionadas por el equipo. | Anderson y Juan José | `reportes.py` |
-| 12 | Pruebas y depuración | Realizar pruebas sobre todas las funciones, identificar errores, verificar validaciones y comprobar el funcionamiento de los archivos. | Todo el equipo | Versión corregida del programa |
-| 13 | Documentación | Consolidar la descripción del proyecto, requisitos, funcionamiento, instrucciones de uso y demás información requerida. | Andrés y Sofía | Documentación final |
-| 14 | Preparación de presentación | Elaborar las diapositivas y organizar la explicación del proyecto y la demostración del programa. | Dana y Sofía, con apoyo del equipo | Presentación final |
-| 15 | Revisión y entrega final | Verificar que el repositorio, código, documentación y presentación cumplan con todos los requisitos antes de realizar la entrega. | Todo el equipo | Versión final de Pet-Voz |
-
----
-
-### 7.2 Cronograma de trabajo
-
-El cronograma se organiza por etapas de desarrollo. Algunas actividades podrán realizarse simultáneamente para distribuir mejor el trabajo entre los integrantes.
-
-| Etapa | Actividades principales | Resultado esperado |
+| Etapa | Actividad | Responsable(s) |
 |---|---|---|
-| **Etapa 1 — Planeación** | Análisis de requisitos, distribución de responsabilidades y definición de la estructura del sistema. | Alcance y organización del proyecto definidos |
-| **Etapa 2 — Diseño** | Diseño de arquitectura, menú de consola, estructura de archivos y formato de los radicados. | Diseño general de Pet-Voz |
-| **Etapa 3 — Desarrollo base** | Programación de validaciones, manejo de archivos y registro de PQRS. | Sistema capaz de registrar y almacenar información |
-| **Etapa 4 — Desarrollo funcional** | Consulta de registros, actualización de estados, generación de radicados y control de fechas. | Funcionalidades principales terminadas |
-| **Etapa 5 — Reportes** | Desarrollo del cálculo de estadísticas y generación de información para análisis. | Módulo de estadísticas funcional |
-| **Etapa 6 — Pruebas** | Pruebas de funcionamiento, validaciones, archivos, casos incorrectos y corrección de errores. | Programa estable y corregido |
-| **Etapa 7 — Documentación** | Consolidación del informe, README, instrucciones de ejecución y preparación de presentación. | Documentación completa |
-| **Etapa 8 — Entrega** | Revisión conjunta del repositorio, ejecución final del programa y preparación de la exposición. | Versión final de Pet-Voz |
+| 1 | Revisar los requisitos y definir cómo funcionará el programa. | Todo el equipo |
+| 2 | Diseñar el menú de consola y organizar la estructura del código. | Anderson, Juan José y Sofía |
+| 3 | Crear las validaciones para los datos ingresados por el usuario. | Anderson y Juan José |
+| 4 | Programar el registro y almacenamiento de las PQRS en los archivos TXT. | Anderson y Juan José |
+| 5 | Implementar la generación automática de los radicados. | Anderson y Juan José |
+| 6 | Programar la consulta de las PQRS y la actualización de sus estados. | Anderson y Juan José |
+| 7 | Implementar el cálculo de fechas de respuesta y las estadísticas. | Anderson y Juan José |
+| 8 | Probar el programa, encontrar errores y realizar las correcciones necesarias. | Todo el equipo |
+| 9 | Organizar el informe, README y demás documentación del proyecto. | Andrés y Sofía |
+| 10 | Preparar las diapositivas, la exposición y la demostración del programa. | Dana y Sofía, con apoyo del equipo |
+| 11 | Hacer una revisión final y preparar la entrega. | Todo el equipo |
 
----
+### Organización del programa
 
-### 7.3 Distribución de responsabilidades
+Para mantener el código ordenado y facilitar el trabajo en equipo, inicialmente se utilizará la siguiente estructura:
 
-Para garantizar una participación organizada, cada integrante tendrá una responsabilidad principal, sin impedir que pueda apoyar otras actividades del proyecto.
+- `main.py`: menú principal y ejecución del programa.
+- `validaciones.py`: validación de los datos ingresados.
+- `archivos.py`: lectura, escritura y actualización de los archivos.
+- `reportes.py`: cálculo y presentación de estadísticas.
 
-- **Andres Julian Giraldo Garcia — Líder de Proyecto:** coordinará el avance general, verificará el cumplimiento del cronograma, apoyará la investigación y realizará la revisión bibliográfica y el marco teórico.
-- **Anderson Leonardo Betancur Morales — Programador:** estará encargado principalmente de la arquitectura del software, lógica general, manejo de datos y desarrollo de las funcionalidades principales.
-- **Juan Jose Rios Ramirez — Programador:** apoyará el desarrollo de módulos, integración de funcionalidades, realización de pruebas, depuración y corrección de errores.
-- **Dana Zapata Rodriguez — Comunicadora:** apoyará la preparación de la presentación, organización de la exposición y comunicación de los resultados del proyecto.
-- **Sofia Martinez Salgado — Diseñadora de Interfaz:** diseñará la interfaz de consola y apoyará la consolidación, organización y presentación de la documentación final.
-
-Aunque existen responsabilidades principales, las decisiones importantes y la revisión final serán realizadas por todo el equipo.
-
----
-
-### 7.4 Organización del código
-
-Para facilitar el desarrollo y mantenimiento, el programa se dividirá inicialmente en los siguientes archivos:
-
-| Archivo | Función principal |
-|---|---|
-| `main.py` | Ejecutar el programa y controlar el menú principal |
-| `validaciones.py` | Validar los datos ingresados por el usuario |
-| `archivos.py` | Gestionar lectura, escritura y actualización de archivos TXT |
-| `reportes.py` | Calcular y presentar las estadísticas del sistema |
-
-Los archivos de información generados por el programa serán:
+Los registros se almacenarán en cuatro archivos independientes:
 
 - `Peticion.txt`
 - `Queja.txt`
 - `Reclamo.txt`
 - `Sugerencia.txt`
 
-Adicionalmente, el sistema generará los archivos TXT correspondientes a los comprobantes de radicación.
+### Pruebas
 
----
+A medida que avancemos, iremos probando cada parte del programa. Antes de la entrega final verificaremos principalmente que:
 
-### 7.5 Estrategia de pruebas
+- Los cuatro tipos de PQRS se puedan registrar correctamente.
+- Los datos ingresados sean validados.
+- Cada tipo de PQRS tenga su propio consecutivo.
+- Los registros se guarden en el archivo correspondiente.
+- Se puedan consultar y actualizar las solicitudes.
+- Las fechas máximas de respuesta se calculen correctamente.
+- Los radicados se generen con el formato solicitado.
+- Las estadísticas funcionen correctamente.
+- La información no se pierda al cerrar y volver a ejecutar el programa.
 
-Antes de la entrega final se realizarán pruebas para verificar el correcto funcionamiento del sistema.
+### Trabajo en equipo
 
-Se comprobarán principalmente los siguientes aspectos:
+El proyecto se manejará mediante **GitHub**, donde iremos guardando los avances del código y la documentación.
 
-1. Registro correcto de cada uno de los cuatro tipos de PQRS.
-2. Rechazo de datos inválidos o incompletos.
-3. Generación correcta y consecutiva de los números de radicado.
-4. Almacenamiento de cada PQRS en el archivo correspondiente.
-5. Consulta correcta de los registros almacenados.
-6. Actualización válida de los estados.
-7. Cálculo correcto de la fecha máxima de respuesta.
-8. Identificación de solicitudes próximas a vencer.
-9. Generación correcta de los radicados en formato TXT.
-10. Cálculo correcto de las estadísticas.
-11. Conservación de la información después de cerrar y volver a ejecutar el programa.
-12. Manejo adecuado de archivos vacíos o inexistentes.
-
-Cuando se identifique un error durante las pruebas, este será corregido y la funcionalidad será probada nuevamente antes de integrarla a la versión final.
-
----
-
-### 7.6 Control de versiones
-
-El código fuente y la documentación del proyecto serán administrados mediante **GitHub**.
-
-Cada integrante deberá trabajar sobre las tareas que le correspondan y registrar los cambios realizados mediante commits descriptivos. Antes de considerar una funcionalidad como terminada, se verificará que no genere errores en las demás partes del programa.
-
-El repositorio servirá como punto central para almacenar el código, mantener el historial de cambios y consolidar la versión final de **Pet-Voz**.
-
----
-
-### 7.7 Criterios de finalización
-
-El proyecto se considerará terminado cuando:
-
-- Las cuatro categorías de PQRS puedan registrarse correctamente.
-- Los datos sean almacenados y recuperados desde los archivos planos correspondientes.
-- Los radicados sean únicos, consecutivos e independientes para cada tipo de PQRS.
-- El sistema permita consultar y actualizar los registros.
-- Se calcule correctamente la fecha máxima de respuesta.
-- El sistema genere las estadísticas solicitadas.
-- Las entradas del usuario sean correctamente validadas.
-- El programa pueda cerrarse y ejecutarse nuevamente sin perder la información almacenada.
-- El código se encuentre organizado y modularizado.
-- Se hayan realizado y superado las pruebas establecidas.
-- El repositorio y la documentación estén completos.
-- El equipo cuente con una versión estable para realizar la presentación y demostración final.
-
+Aunque cada integrante tiene una responsabilidad principal, todos participaremos en la revisión y las pruebas del proyecto. De esta manera podremos detectar errores, aportar mejoras y asegurarnos de que **Pet-Voz** cumpla con los requisitos establecidos antes de realizar la entrega final.
