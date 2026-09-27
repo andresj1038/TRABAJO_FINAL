@@ -1,13 +1,3 @@
-# TRABAJO_FINAL
+# Pet-Voz 🐾
 
-integrantes: 
--Andres Julian Giraldo Garcia 
--Anderson Leonardo Betancur Morales
-- Juan Jose Rios Ramirez
-- Dana Sarid Zapata Rodriguez
-- Sofia Martinez Salgado
-
-Vinculos academicos:
-Lider de proyecto: Andres Julian Giraldo Garcia 
-Programador: Anderson Leonardo Betancur Morales
-
+**Sistema de Gestión de PQRS para la atención de Perros y Gatos**
