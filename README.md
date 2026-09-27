@@ -81,31 +81,12 @@ Crear un programa de consola amigable que permita al administrador de Pet-Voz ge
 
 ---
 ## 7. Plan de proyecto: 
-## 7. Plan de proyecto
 
 Para el desarrollo de **Pet-Voz** se plantea un plan de trabajo que permita avanzar de manera organizada desde la planeación inicial hasta la entrega final del programa.
 
 El proyecto se desarrollará por etapas, de forma que primero se tenga claro qué debe hacer el sistema, luego se construyan sus principales funciones y finalmente se realicen las pruebas, correcciones y documentación necesarias.
 
 El equipo tendrá una inversión total estimada de **50 horas de trabajo**, distribuidas entre las diferentes actividades del proyecto.
-
-### 7.1 Actividades del proyecto
-
-Las actividades principales para el desarrollo de Pet-Voz serán las siguientes:
-
-| Actividad | Descripción | Horas estimadas |
-|---|---|---:|
-| Planeación y organización | Revisión de las indicaciones, reuniones del equipo, definición del alcance y organización del trabajo. | 4 h |
-| Diseño del programa | Definición del menú, estructura de los archivos, módulos y forma en que funcionará Pet-Voz. | 5 h |
-| Registro de PQRS | Desarrollo de la función para registrar peticiones, quejas, reclamos y sugerencias con sus respectivos datos. | 7 h |
-| Validación de datos | Creación de las validaciones para nombres, documentos, teléfonos, correos, fechas y demás información ingresada. | 5 h |
-| Almacenamiento de información | Desarrollo de la lectura y escritura de los cuatro archivos planos correspondientes a cada tipo de PQRS. | 5 h |
-| Consulta y actualización | Desarrollo de las opciones para consultar PQRS y cambiar su estado entre Registrada, En proceso y Solucionada. | 5 h |
-| Generación de radicados | Creación del comprobante en formato TXT con la información correspondiente a cada PQRS registrada. | 4 h |
-| Estadísticas | Desarrollo del promedio de días de respuesta y de las cinco estadísticas adicionales seleccionadas por el equipo. | 4 h |
-| Pruebas y correcciones | Pruebas generales del programa para encontrar errores y realizar las correcciones necesarias. | 5 h |
-| Documentación y entrega | Organización del repositorio, actualización del README, manual de usuario y revisión final del proyecto. | 6 h |
-| **Total** | | **50 h** |
 
 ### 7.2 Cronograma
 
