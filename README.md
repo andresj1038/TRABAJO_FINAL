@@ -175,8 +175,8 @@ Los días se cuentan desde el inicio del proyecto (27 de agosto de 2026 = día 1
 | v0.4.0 | 27/09 | 32 | Plan de proyecto y plan de versionado. **Entrega 1** |
 | v0.5.0 | 11/11 - 14/11 | 77 - 80 | Diseño de clases y menú de consola |
 | v0.6.0 | 18/11 - 20/11 | 81 - 84 | Módulos validaciones.py (correo, teléfono, fechas y nombres) y archivos.py (lectura y escritura de los 4 archivos planos) |
-| v0.7.0 | 21/11 - 26/11 | 85 - 86 | Función Registrar PQRS con ID auto-incremental e impresión del radicado ASCII,Módulo reportes.py, consulta y cambio de estado de PQRS |
-| v0.9.0 | 28/11 | 94 | Pruebas y manual de usuario en docs |
+| v0.7.0 | 21/11 - 26/11 | 87 - 92 | Función Registrar PQRS con ID auto-incremental e impresión del radicado ASCII, módulo reportes.py, consulta y cambio de estado de PQRS |
+| v0.8.0 | 28/11 | 94 | Pruebas y manual de usuario en docs |
 | v1.0.0 | 01/12 | 97 | Correcciones finales y entrega del programa completo al profesor |
 | v1.0.1 | 03/12 | 99 | **Sustentación** |
 
