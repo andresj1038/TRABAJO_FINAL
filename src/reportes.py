@@ -4,7 +4,7 @@ import os
 from datetime import date
 from validaciones import TIPOS, MASCOTAS, ESTADOS, convertir_fecha
 
-CARPETA_SRC = os.path.dirname(os.path.abspath(_file_))
+CARPETA_SRC = os.path.dirname(os.path.abspath(__file__))
 CARPETA_PROYECTO = os.path.dirname(CARPETA_SRC)
 CARPETA_COMPROBANTES = os.path.join(CARPETA_PROYECTO, "data", "comprobantes")
 ANCHO = 120
