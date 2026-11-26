@@ -3,7 +3,7 @@
 import os
 from validaciones import TIPOS, cambio_permitido, fecha_valida
 
-CARPETA_SRC = os.path.dirname(os.path.abspath(_file_))
+CARPETA_SRC = os.path.dirname(os.path.abspath(__file__))
 CARPETA_PROYECTO = os.path.dirname(CARPETA_SRC)
 CARPETA_DATOS = os.path.join(CARPETA_PROYECTO, "data")
 
